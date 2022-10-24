@@ -54,4 +54,4 @@ window.addEventListener('keydown', onEscapeClose);
     modalWindow.close();
   }
 
-  new SimpleLightbox('.gallery a', { docClose: true, captionsData: 'alt', captionDelay: 250});
+  new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250});
